@@ -1,12 +1,12 @@
 # В рабочей директории должен быть файл sample.csv , в котором выборка идет столбцом. 
-# The working directory must contain a file sample.csv with data in a single column
 # При этом первая ячейка – название столбца «x», знак десятичной дроби – точка.
-# The first cell should be column name "x", with decimal point as separator
 # Основной результат скрипта - это расчёт количества проб которые необходимо 
-# The main script output is calculating the number of samples required
-# собрать и обработать для получения результата с известной точностью. 
-# to obtain results with known precision
+# собрать и обработать для получения результата с известной точностью.
 # Результат записывается в файл в рабочую директорию как "Number of sumples.txt"
+# The working directory must contain a file sample.csv with data in a single column
+# The first cell should be column name "x", with decimal point as separator
+# The main script output is calculating the number of samples required
+# to obtain results with known precision
 # Results are saved to "Number of samples.txt" in the working directory
 
 # Шаг 1: Загрузка таблицы из файла sample.csv
