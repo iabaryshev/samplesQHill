@@ -9,6 +9,24 @@
 # to obtain results with known precision
 # Results are saved to "Number of samples.txt" in the working directory
 
+# Проверка и установка ggplot2
+if (!requireNamespace("ggplot2", quietly = TRUE)) {
+  install.packages("ggplot2")
+  library(ggplot2, character.only = TRUE)
+}
+
+# Проверка и установка dplyr
+if (!requireNamespace("dplyr", quietly = TRUE)) {
+  install.packages("dplyr")
+  library(dplyr, character.only = TRUE)
+}
+
+# Проверка и установка tidyr
+if (!requireNamespace("tidyr", quietly = TRUE)) {
+  install.packages("tidyr")
+  library(tidyr, character.only = TRUE)
+}
+
 # Шаг 1: Загрузка таблицы из файла sample.csv
 # Step 1: Load data from sample.csv
 data <- read.csv("sample.csv")
